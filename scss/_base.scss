@@ -10,7 +10,7 @@ i {
 }
 
 body{
-	background: rgb(124,255,223);
+	background: rgb(255,231,179);
 	max-width: 960px;
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
@@ -21,6 +21,10 @@ h1, h2, h3{
 	font-family: 'Abril Fatface', cursive;
 	// font-family: 'Lobster', cursive;
 	// font-family: 'Anton', sans-serif;
+}
+
+nav a{
+	padding-right: 35px;
 }
 
 a{
@@ -49,77 +53,60 @@ header figure img{
 	margin: 0 auto;
 }
 
-ul li a img{
-	height : 200px;
-	width : 300px;
+.nav{
+	    /* Set a specific height */
+    min-height: 50px; 
+	background: rgb(255,220,192);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 10px;
 }
 
-header {
-	margin: 0 auto;
-    width:100%; 
-    height: 250px;
-    background: url('../img/Header.jpg');
-}
-
-//Sprite code
-// li{
-// 	list-style: none;
-// 	display: inline-block;
-// 	 padding: 10px;
-// 	padding-right: 20px;
-// 	a{
-// 		display: inline-block;
-// 		width: 100px;
-// 		height: 100px;
-// 		span{
-// 			position: absolute;
-// 			top: -9999em;
-// 			left: -9999em;
-// 		}span
-// 	}
-// }
-
-.bm, .bll, .gll, .ghll, .ec, .sb, .ss, .fc { 
+.m, .n, .syf, .c, .d, .cu, .l, .on { 
     /* Set a specific height */
-    height: 100px; 
+    min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     padding: 10px;
+    text-align: center;
 }
 
-.bm { 
-    background: rgb(111,212,255);
+.m { 
+    background: url('../img/burger.gif');
 }
 
-.bll { 
-    background: rgb(101,227,232);
+.n { 
+    background: url('../img/giving-burrito.gif');
 }
 
-.gll{ 
-    background: rgb(101,232,163);
+.syf{ 
+    background: url('../img/eating-a-bite.gif');
 }
 
-.ghll{ 
-    background: rgb(111,255,139);
+.c{ 
+    background: url('../img/eating-cake.gif');
 }
 
-.ec{ 
-    background: rgb(111,212,255);
+.d{ 
+    background: url('../img/pizza.gif');
 }
 
-.sb { 
-    background: rgb(101,227,232);
+.cu { 
+    background: url('../img/nom-nom-nom.gif');
 }
 
-.ss{ 
-    background: rgb(101,232,163);
+.l{ 
+    background: url('../img/spaghetti.gif');
 }
 
-.fc{ 
-    background: rgb(111,255,139);
+.on{ 
+    background: url('../img/goodby.gif');
 }
 

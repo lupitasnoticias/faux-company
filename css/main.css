@@ -484,7 +484,7 @@ i {
 }
 
 body {
-  background: #7cffdf;
+  background: #ffe7b3;
   max-width: 960px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -492,6 +492,10 @@ body {
 
 h1, h2, h3 {
   font-family: 'Abril Fatface', cursive;
+}
+
+nav a {
+  padding-right: 35px;
 }
 
 a {
@@ -520,59 +524,60 @@ header figure img {
   margin: 0 auto;
 }
 
-ul li a img {
-  height: 200px;
-  width: 300px;
-}
-
-header {
-  margin: 0 auto;
-  width: 100%;
-  height: 250px;
-  background: url("../img/Header.jpg");
-}
-
-.bm, .bll, .gll, .ghll, .ec, .sb, .ss, .fc {
+.nav {
   /* Set a specific height */
-  height: 100px;
+  min-height: 50px;
+  background: #ffdcc0;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   padding: 10px;
 }
 
-.bm {
-  background: #6fd4ff;
+.m, .n, .syf, .c, .d, .cu, .l, .on {
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding: 10px;
+  text-align: center;
 }
 
-.bll {
-  background: #65e3e8;
+.m {
+  background: url("../img/burger.gif");
 }
 
-.gll {
-  background: #65e8a3;
+.n {
+  background: url("../img/giving-burrito.gif");
 }
 
-.ghll {
-  background: #6fff8b;
+.syf {
+  background: url("../img/eating-a-bite.gif");
 }
 
-.ec {
-  background: #6fd4ff;
+.c {
+  background: url("../img/eating-cake.gif");
 }
 
-.sb {
-  background: #65e3e8;
+.d {
+  background: url("../img/pizza.gif");
 }
 
-.ss {
-  background: #65e8a3;
+.cu {
+  background: url("../img/nom-nom-nom.gif");
 }
 
-.fc {
-  background: #6fff8b;
+.l {
+  background: url("../img/spaghetti.gif");
+}
+
+.on {
+  background: url("../img/goodby.gif");
 }
 
 /* ==========================================================================
