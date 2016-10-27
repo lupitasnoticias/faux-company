@@ -522,12 +522,12 @@ nav a {
   padding-right: 35px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+nav a:hover {
   color: #ff7e3f;
 }
 
