@@ -1,0 +1,125 @@
+@import "compass/utilities/sprites";
+// @import 'icon/*.png'; 
+// @include all-icon-sprites;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Lobster|Roboto');
+
+i {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+body{
+	background: rgb(124,255,223);
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	// font-family: 'Anton', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'Abril Fatface', cursive;
+	// font-family: 'Lobster', cursive;
+	// font-family: 'Anton', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(15, 186, 255);
+}
+
+a:hover {
+	color: rgb(14,232,197);
+}
+
+.container{
+	background: rgba(255,255,255,.65);
+}
+
+.hidden{
+	display: none;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+header figure img{
+	margin: 0 auto;
+}
+
+ul li a img{
+	height : 200px;
+	width : 300px;
+}
+
+header {
+	margin: 0 auto;
+    width:100%; 
+    height: 250px;
+    background: url('../img/Header.jpg');
+}
+
+//Sprite code
+// li{
+// 	list-style: none;
+// 	display: inline-block;
+// 	 padding: 10px;
+// 	padding-right: 20px;
+// 	a{
+// 		display: inline-block;
+// 		width: 100px;
+// 		height: 100px;
+// 		span{
+// 			position: absolute;
+// 			top: -9999em;
+// 			left: -9999em;
+// 		}span
+// 	}
+// }
+
+.bm, .bll, .gll, .ghll, .ec, .sb, .ss, .fc { 
+    /* Set a specific height */
+    height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.bm { 
+    background: rgb(111,212,255);
+}
+
+.bll { 
+    background: rgb(101,227,232);
+}
+
+.gll{ 
+    background: rgb(101,232,163);
+}
+
+.ghll{ 
+    background: rgb(111,255,139);
+}
+
+.ec{ 
+    background: rgb(111,212,255);
+}
+
+.sb { 
+    background: rgb(101,227,232);
+}
+
+.ss{ 
+    background: rgb(101,232,163);
+}
+
+.fc{ 
+    background: rgb(111,255,139);
+}
+
