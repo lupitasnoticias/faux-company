@@ -1,7 +1,7 @@
 @import "compass/utilities/sprites";
 // @import 'icon/*.png'; 
 // @include all-icon-sprites;
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Lobster|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Proza+Libre|Lobster|Roboto');
 
 i {
 	height: 100px;
@@ -9,31 +9,50 @@ i {
 	display: inline-block;
 }
 
+.header{
+	position: relative;
+}
+
+.logo {
+    top: 5px;
+    left: -3px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+nav ul{
+	padding-left: 121px;
+}
+
 body{
 	background: rgb(255,231,179);
 	max-width: 960px;
 	margin: 0 auto;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Proza Libre', sans-serif;
+	color: rgb(255,231,179);
 	// font-family: 'Anton', sans-serif;
 }
 
 h1, h2, h3{
-	font-family: 'Abril Fatface', cursive;
-	// font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	line-height: 1em;
 	// font-family: 'Anton', sans-serif;
 }
 
 nav a{
+	font-family: 'Anton', sans-serif;
 	padding-right: 35px;
 }
 
 a{
 	text-decoration: none;
-	color: rgb(15, 186, 255);
+	color: rgb(0, 0, 0);
 }
 
 a:hover {
-	color: rgb(14,232,197);
+	color: rgb(255,126,63);
 }
 
 .container{
@@ -53,10 +72,13 @@ header figure img{
 	margin: 0 auto;
 }
 
+.story {
+	background: rgba(0,0,0,.5);
+}
+
 .nav{
 	    /* Set a specific height */
-    min-height: 50px; 
-	background: rgb(255,220,192);
+    min-height: 50px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
