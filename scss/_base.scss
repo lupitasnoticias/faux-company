@@ -21,6 +21,10 @@ i {
     position: absolute;
 }
 
+ul{
+	display: inline-block;
+}
+
 nav ul{
 	padding-left: 121px;
 }
@@ -63,7 +67,7 @@ a:hover {
 	display: none;
 }
 
-ul li{
+nav ul li{
 	list-style: none;
 	display: inline-block;
 }
