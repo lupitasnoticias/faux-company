@@ -80,6 +80,15 @@ header figure img{
 	background: rgba(0,0,0,.5);
 }
 
+.story p a{
+	color: rgb(255,126,63);
+	text-decoration: none;
+}
+
+.story p a:hover{
+	color: rgb(255,255,255);
+}
+
 .nav{
 	    /* Set a specific height */
     min-height: 50px;

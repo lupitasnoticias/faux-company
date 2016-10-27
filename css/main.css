@@ -552,6 +552,15 @@ header figure img {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.story p a {
+  color: #ff7e3f;
+  text-decoration: none;
+}
+
+.story p a:hover {
+  color: white;
+}
+
 .nav {
   /* Set a specific height */
   min-height: 50px;
